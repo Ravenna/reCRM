@@ -35,5 +35,7 @@ elixir(mix => {
     .webpack('app.js')
     .version('public/js/app.js')
     .copy('node_modules/bootstrap-sass/assets/fonts/bootstrap/','public/fonts/bootstrap')
-    //.browserSync({proxy : 'localhost:1337/Flarepoint-crm/public/tasks'});
+    // .browserSync({proxy : 'http://crm:8888/'});
 });
+
+

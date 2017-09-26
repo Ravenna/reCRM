@@ -14,7 +14,7 @@
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+    <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
     <style>
         body {
@@ -56,8 +56,7 @@
         </div>
     </div>
 </nav>
-<div style="text-align: center; margin-bottom:20px;"><img src="{{ asset('images/FP_logo_big.png') }}" width="400px"
-                                                          alt=""></div>
+<div style="text-align: center; margin-bottom:20px;"><h1>Ravenna CRM</h1></div>
 @yield('content')
 
         <!-- JavaScripts -->

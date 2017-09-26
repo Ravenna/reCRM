@@ -1,12 +1,18 @@
+.dashboard-logo{
+    margin: 0 auto 20px auto;
+    display: block;
+    width: 160px;
+}
+
 .small-profile-picture{
   height: 30px;
   width: 30px;
-	
+    
 }
 .dot-online:before {
     content: ' \25CF';
     font-size: 15px;
-   	color:green;
+    color:green;
 }
 .dot-offline:before {
     content: ' \25CF';

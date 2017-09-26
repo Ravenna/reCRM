@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 
+use Log;
 use DB;
 use Auth;
 use Carbon;
@@ -144,5 +145,16 @@ class LeadsController extends Controller
         $this->leads->updateStatus($id, $request);
         Session()->flash('flash_message', 'Lead is completed');
         return redirect()->back();
+    }
+
+    /**
+     * Create or Update from Zapier / IDX Broker
+     * @param $id
+     * @param Request $request
+     * @return mixed
+     */
+    public function leadWebhook($zapierInfo)
+    {
+        Log::info($zapierInfo);
     }
 }

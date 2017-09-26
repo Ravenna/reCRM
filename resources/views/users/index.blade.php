@@ -4,7 +4,7 @@
 @stop
 
 @section('content')
-    <table class="table table-hover" id="users-table">
+    <table class="table table-hover" id="users-table" style="width: 100%;">
         <thead>
         <tr>
             <th>{{ __('Name') }}</th>
